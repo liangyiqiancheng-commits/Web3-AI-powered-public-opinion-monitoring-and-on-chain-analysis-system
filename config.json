@@ -1,0 +1,21 @@
+{
+  "project_name": "RAY_PROTOCOL_BETA",
+  "version": "0.1.5-alpha",
+  "environment": "production",
+  "api_keys": {
+    "twitter_api": "HIDDEN_FOR_SECURITY",
+    "etherscan_api": "HIDDEN_FOR_SECURITY",
+    "openai_api": "HIDDEN_FOR_SECURITY"
+  },
+  "trading_params": {
+    "stop_loss": 0.05,
+    "take_profit": 0.12,
+    "max_leverage": 3,
+    "assets": ["BTC", "ETH", "SOL", "ARB"]
+  },
+  "database": {
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432
+  }
+}
